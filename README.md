@@ -69,7 +69,7 @@ Usage: generate.py document [OPTIONS]
 
 Options:
   -o, --output_path PATH          Path to output the generated files to
-  -p, --provider [starfleet_application|document|drs_request|account|claim]
+  -p, --provider [starfleet_application | starfleet_account]
                                   document provider to use  [required]
   -q, --quantity INTEGER          Number of files to create
   --help                          Show this message and exit.
