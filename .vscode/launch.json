@@ -1,0 +1,32 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Generate Starfleet Account",
+            "type": "python",
+            "request": "launch",
+            "program": "generate.py",
+            "console": "integratedTerminal",
+            "args": ["document", "--provider", "starfleet_account"]
+        },
+        {
+            "name": "Generate Starfleet Application",
+            "type": "python",
+            "request": "launch",
+            "program": "generate.py",
+            "console": "integratedTerminal",
+            "args": ["document", "--provider", "starfleet_application"]
+        },
+        {
+            "name": "Generate Starfleet Journey",
+            "type": "python",
+            "request": "launch",
+            "program": "generate.py",
+            "console": "integratedTerminal",
+            "args": ["journey", "--provider", "starfleet"]
+        }
+    ]
+}
