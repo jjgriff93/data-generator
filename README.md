@@ -91,7 +91,7 @@ $ python generate.py document --output_path ./my_custom_directory/output --docum
 
 ### Document Providers and Extending This Codebase
 
-This utility works by using Document Providers that we define, which are built on top of [Mimesis Schemas](https://mimesis.readthedocs.io/api.html#schema) to describe what a document's structure should look like as well as the strategies to fake the fields within it.
+This utility works by using Document Providers that we define, which are built on top of [Mimesis Schemas]([https://mimesis.readthedocs.io/api.html#schema](https://mimesis.name/en/master/getting_started.html#schema-and-fields) to describe what a document's structure should look like as well as the strategies to fake the fields within it.
 
 Within the repo, the folder `./document_providers/` contains Python files (i.e `starfleet_application.py`, `starfleet_account.py`) which use the `DocumentProvider` base class and define the structure and content of a document. 
 
@@ -119,7 +119,7 @@ This is then saved to the specified `output_path` as JSON.
 
 ### Understanding DocumentProviders
 
-As these are built on top of Mimesis Schemas & Fields, it's a good idea to first understand how these work by [visiting their docs](https://mimesis.readthedocs.io/getting_started.html#schema-and-fields). 
+As these are built on top of Mimesis Schemas & Fields, it's a good idea to first understand how these work by [visiting their docs](https://mimesis.name/en/master/getting_started.html#schema-and-fields). 
 
 Now let's take the `starfleet_account.py` provider as an example:
 
