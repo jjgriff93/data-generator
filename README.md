@@ -20,9 +20,9 @@ Commands:
 
 ## Installation & Developing
 
-A DevContainer configuration is already set up for you. Simply clone this repository in VS Code and it will prompt you to re-open in a DevContainer, which will installed all the required dependencies and tools for you in a Docker image. More info on them [here](https://code.visualstudio.com/docs/remote/containers)
+A DevContainer configuration is already set up for you. Simply clone this repository in VS Code and it will prompt you to re-open in a DevContainer, which will install all the required dependencies and tools for you in a Docker image. More info on them [here](https://code.visualstudio.com/docs/remote/containers).
 
-If you fancy doing it the old-fashioned way (heaven-forbid) then simply open in your IDE of choice with a Python environment set up, then run:
+If you fancy doing it the old-fashioned way then simply open in your IDE of choice with a Python environment set up, then run:
 
 ``` bash
 pip install -r requirements.txt
