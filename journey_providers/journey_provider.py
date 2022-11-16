@@ -87,7 +87,7 @@ class JourneyProvider:
         Helper function that returns the step index containing the highest delay
 
         This is useful if you need to make sure the step you're contructing is the last step
-        the user perdocuments (i.e. has a delay higher than the highest computed delay from a
+        the user performs (i.e. has a delay higher than the highest computed delay from a
         previous step)
         """
         steps = self.journey_metadata["steps"]
